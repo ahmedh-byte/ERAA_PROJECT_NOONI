@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.p{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.nav{
+    background-color:white ;
+    border-radius: 8px;
+   position: relative;
+   top:32px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: #916330;
+}
+
+
+/*sec1*/
+.link a{
+    text-decoration: none;
+    color: #916330;
+    font-size: 24px;
+}
+.link a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.link span{
+    font-size: 24px;
+}
+
+
+
+/*sec1*/
+
+/*sec2*/
+.sec2 p{
+ font-family: 'inter';
+ font-weight: 500;
+ font-size: 20px;
+}
+.sec2 h1{
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 48px;
+   }
+
+
+/*sec2*/
+/*sec3*/
+.imgg{
+    background-image: url('../IMAGES/about-parallax-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 800px;
+    
+}
+
+
+/*sec3*/
+/*sec44*/
+ .img{
+    height: 500px;
+    width: 100%;
+  
+    background-image: url('../IMAGES/about-3.jpg');
+
+    
+}
+.sec4 .info{
+    width: 50%;
+}
+.sec4 h1{
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.sec4 h6{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+.sec4 p{
+    font-family: 'Inter';
+    font-size: 16px;
+    color:#8f8f8f;
+
+}
+
+
+
+/*sec4 team*/
+.team{
+    height: 750px;
+    width: 100%;
+    background-color: white;
+}
+swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    
+   position: absolute;
+    top: -50px;
+   
+    width: 200pX;
+    height: 250px;
+    
+  }
+  
+ .t1
+ {
+    position: relative;
+    height: 400PX;
+    width: 400PX;
+    padding: 12px;
+    background-color: #F6EEE5;
+    border-radius: 8px;
+    gap: 12px;
+ }
+ .t1 img{
+    border-radius: 8px;
+ }
+ .inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    height: 100px;
+  
+ }
+ .inf h6{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+ }
+ .inf p{
+    font-size: 24px;
+    color: #858585;
+ }
+ .icon i:hover{
+    color: red;
+
+ }
+/*sec5 team*/
+/*sec5 contact*/
+.imggg{
+    background-image: url('../IMAGES/about-2.jpg');
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  filter: brightness(30%);
+    
+}
+.contactus{
+    position: relative;
+}
+.infooo{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    color: white;
+}
+.infooo button{
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background-color: #916330;
+    border: 1px solid #916330 ;
+}
+.infooo button:hover{
+
+   color:#916330;
+    background-color: white;
+    border: 1px solid #916330 ;
+}
+.p1 img{
+    height: 64px;
+}
+
+
+
+/*sec5 contact */
+/*sec5 footer */
+.fooo{
+    
+    
+    background-color: white;
+
+}
+.footer{
+    background-color: white;
+    padding: 24px;
+    gap: 100px;
+}
+.SECOND {
+    gap: 100px;
+}
+.FIRST
+{
+    gap: 100px;
+
+}
+.FIRST p{
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer h6{
+    font-family: 'inter';
+    color: black;
+    font-size: 24px;
+}
+/*footer*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+.p{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.nav{
+    background-color:white ;
+    border-radius: 8px;
+   position: relative;
+   top:32px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: #916330;
+}
+/*contact us*/
+.imggg{
+    background-image: url('../IMAGES/about-2.jpg');
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  filter: brightness(30%);
+    
+}
+.contactus{
+    position: relative;
+}
+.infooo{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    color: white;
+}
+
+
+/*contact us*/
+
+.form_info{
+    background-color: white;
+    padding:24px;
+}
+.info1 a{
+    text-decoration: none;
+    color: #916330;
+}
+.form_info .infoo{
+    height: 500px;
+}
+
+.form_input input{
+    width: 100%;
+}
+.input1 input{
+    width: 48%;
+}
+.form_input input{
+    border: 1px solid black;
+    height: 48px;
+    padding: 16px;
+}
+.form_input{
+    height: 500px;
+
+}
+#message{
+    text-align: left;
+    height: 150px;
+
+    text-align: start;
+}
+.form_input button{
+   
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #916330;
+    border: 1px solid #916330 ;
+}
+.form_input button:hover{
+    color:#916330;
+    background-color: white;
+    border: 1px solid #916330 ;
+}
+.hello{
+    position: relative;
+}
+.form_info{
+    position: absolute;
+    top: -400px;
+}
+
+
+/*footer*/
+.fooo{
+    
+    
+    background-color: white;
+
+}
+.footer{
+    background-color: white;
+    padding: 24px;
+    gap: 100px;
+}
+.SECOND {
+    gap: 100px;
+}
+.FIRST
+{
+    gap: 100px;
+
+}
+.FIRST p{
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer h6{
+    font-family: 'inter';
+    color: black;
+    font-size: 24px;
+}
+/*footer*/
+

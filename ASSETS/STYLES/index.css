@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.p{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.nav{
+    background-color:white ;
+    border-radius: 8px;
+   position: relative;
+   top:32px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: #916330;
+}
+/*hero section start*/
+.hero{
+    border-radius: 8px;
+    height: 800px;
+    background-image: url('../IMAGES/Rectangle\ 1.png');
+    background-image: url('../IMAGES/gray-sofa-brown-living-room-with-copy-space.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.hero_info button {
+    background-color:#916330;
+    color: white;
+    height: 50px;
+    width: 144px;
+    border: none;
+    border-radius: 24px 8px 24px 8px;
+}
+.hero_info button:hover{
+    background-color:white;
+    color:#916330 ;
+    border: 1px solid #916330;
+
+}
+.hero_info p{
+    font-family: 'Inter';
+    font-size: 16px;
+    padding-top:32px ;
+    padding-bottom:32px ;
+}
+.hero_info h1{
+    font-family: 'Inter';
+    font-size: 38px;
+    font-weight: 600;
+}
+
+/*hero section end */
+
+/*service section start */
+.our_service .service1
+{
+    height: 150px;
+    width: 180px;
+    background-color: wheat;
+    border-radius: 8px;
+    
+
+}
+.service p{
+    text-align: center;
+}
+
+/*service end*/
+/*catalog start*/
+
+.cat .cat1
+{
+    width: 200px;
+   
+   
+}
+.cat .cat1 img
+{
+   
+    border-radius: 100px;
+}
+.cat1 img:hover{
+    filter: brightness(40%);
+    transform: scale(1.1);
+    transform: rotate(20deg);
+
+}
+
+/*catalog END*/
+
+
+
+.dis_2{
+    height: 800px;
+   
+    background-image: url('../IMAGES/banner-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    filter: brightness(70%);
+}
+.dis_2:hover{
+    transform: scale(0.9);
+    filter: brightness(100%);
+}
+.dis_1{
+    height: 800px;
+}
+.dis_11
+{
+    height: 380px;
+    width: 100%;
+    background-image: url(../IMAGES/banner-0.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    filter: brightness(70%);
+}
+.dis_11:hover{
+    transform: scale(0.9);
+    filter: brightness(100%);
+   
+
+}
+.dis_12{
+    height: 380px;
+    width: 100%;
+    background-image: url(../IMAGES/banner-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    filter: brightness(70%);
+}
+.dis_12:hover{
+    transform: scale(0.9);
+    filter: brightness(100%);
+    
+}
+.dis_info{
+    height: 250px;
+}
+
+
+.dis_info p
+{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    
+   
+
+}
+.dis_info a{
+    text-decoration: none;
+    color:black ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.dis_2 .dis_info  p{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+.dis_2 .dis_info  a{
+    color: white;
+}
+
+.dis_info a:hover{
+    text-decoration: underline;
+    color:#916330 ;
+}
+/*cards start */
+.item_1
+{
+    width:230px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+   
+}
+.icon{
+    gap:140px;
+}
+.icon i{
+ color: #916330;
+ 
+ 
+
+}
+ .icon i:hover{
+    color: red;
+ }
+ .icon p:hover{
+   color: red;
+ }
+ .item_1 button{
+    height: 36px;
+    width:150px;
+    background-color: #916330;
+    color: white;
+   border: 1px solid #916330;
+   border-radius: 16px;
+ }
+ .item_1 button:hover{
+    width:150px;
+    height: 36px;
+    background-color: white;
+    color: #916330;
+   border: 1px solid #916330;
+   border-radius: 16px;
+ }
+/* blogs start*/
+.blooo{
+    background-color: #F6EEE5;
+
+}
+.blog{
+    background-color: #F6EEE5;
+}
+.blog p{
+    text-align: center;
+}
+.infooo{
+   width: 100%;
+    height: 100%;
+  
+}
+
+.infooo h5
+{
+    font-family: 'Inter';
+    font-size: 20px;
+    width: 100%;
+   
+
+}
+.infooo p{
+    font-family: 'Inter';
+    font-size: 14px;
+    text-align: left;
+   
+}
+.infooo a{
+    color: #916330;
+}
+.arrow{
+    background-color: #916330;
+    
+}
+
+
+
+/* blogs end*/
+
+
+/* partner section start*/
+marquee img{
+    padding-left: 100px;
+}
+/* partner section start*/
+/*offer*/
+.sigN_up{
+    background-color:#F6EEE5;
+    padding-top: 48px; 
+    border-radius: 150px 150px 0 0;
+}
+.sigN_up h1{
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.sigN_up p{
+    font-family: 'inter';
+    font-size: 14px;
+
+}
+.emil{
+    height: 120px;
+    background-color:#F6EEE5;
+    padding: 24px;
+    border-radius: 8px 8px 0px 0px;
+   
+}
+.emil{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.emil button{
+    background-color: #916330;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: 1px solid #916330;
+
+}
+.emil input{
+    padding-left: 12px;
+    width: 300px;
+    height: 50px;
+    border-radius: 16px 0px 0px 16px;
+    border: 1px solid #916330;
+}
+
+/*offer*/
+/*footer*/
+.fooo{
+    
+    
+    background-color: white;
+
+}
+.footer{
+    background-color: white;
+    padding: 24px;
+    gap: 100px;
+}
+.SECOND {
+    gap: 100px;
+}
+.FIRST
+{
+    gap: 100px;
+
+}
+.FIRST p{
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer h6{
+    font-family: 'inter';
+    color: black;
+    font-size: 24px;
+}
+/*footer*/
+
