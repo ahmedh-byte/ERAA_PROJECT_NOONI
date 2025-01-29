@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.p{
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.nav{
+    background-color:white ;
+    border-radius: 8px;
+   position: relative;
+   top:32px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: #916330;
+}
+
+
+/*product info*/
+.pro{
+    background-color: white;
+    padding: 24px;
+
+}
+.productt{
+  background-color: white;
+  padding: 24px;
+
+}
+.img1{
+
+height: 90px;
+background-image: url('../IMAGES/1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+outline: #916330 solid 3px;
+
+}
+.img2{
+
+    height: 90px;
+    background-image: url('../IMAGES/Product\ 1-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.img3{
+
+    height: 90px;
+    background-image: url('../IMAGES/Product\ 1-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    
+ }
+ .img4{
+
+    height: 90px;
+    background-image: url('../IMAGES/Product\ 1-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    
+    }
+
+    .main_image{
+        background-image: url('../IMAGES/1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        height: 500px;
+    }
+    .color1{
+        background-image: url('../IMAGES/teak-46x46.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        width: 50px;
+        height: 50px;
+        outline: #916330 solid 3px;
+
+    }
+    .color2{
+        background-image: url('../IMAGES/grey-46x46.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .color3{
+        background-image: url('../IMAGES/green-46x46.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .color4{
+        background-image: url('../IMAGES/black-46x46.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    
+    
+
+    
+/*product info*/
+.numm{
+    background-color: #ededed;
+    height: 50px;
+}
+
+.info button{
+    background-color: white;
+    height: 50px;
+}
+.amountt button{
+    background-color: #999999;
+    border: none;
+}
+.fav{
+    height: 50px;
+}
+inf1 p{
+    font-weight: 400;
+
+}
+.inf1 span{
+    color:black;
+    font-weight: 600;
+    
+}
+.h111{
+    background-color:#4e4c4c;
+    padding: 12px;
+    color: white;
+}
+/*related product*/
+.item_1
+{
+    width:230px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+   
+}
+.icon{
+    gap:140px;
+}
+.icon i{
+ color: #916330;
+ 
+ 
+
+}
+ .icon i:hover{
+    color: red;
+ }
+ .icon p:hover{
+   color: red;
+ }
+ .item_1 button{
+    height: 36px;
+    width:150px;
+    background-color: #916330;
+    color: white;
+   border: 1px solid #916330;
+   border-radius: 16px;
+ }
+ .item_1 button:hover{
+    width:150px;
+    height: 36px;
+    background-color: white;
+    color: #916330;
+   border: 1px solid #916330;
+   border-radius: 16px;
+ }
+ .productinfo
+ {background-color: white;
+    padding: 24px;
+
+
+}
+.cards{
+    background-color:#ededed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*related product*/
+/*footer*/
+.fooo{
+    
+    
+    background-color: white;
+
+}
+.footer{
+    background-color: white;
+    padding: 24px;
+    gap: 100px;
+}
+.SECOND {
+    gap: 100px;
+}
+.FIRST
+{
+    gap: 100px;
+
+}
+.FIRST p{
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer h6{
+    font-family: 'inter';
+    color: black;
+    font-size: 24px;
+}
+/*footer*/
