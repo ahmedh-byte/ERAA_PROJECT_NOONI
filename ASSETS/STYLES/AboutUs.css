@@ -53,6 +53,10 @@
 
 /*sec2*/
 /*sec3*/
+.our_img{
+    overflow: hidden;
+    height: 600px;
+}
 .imgg{
     background-image: url('../IMAGES/about-parallax-1.jpg');
     background-size: cover;
@@ -61,6 +65,7 @@
     height: 800px;
     
 }
+
 
 
 /*sec3*/

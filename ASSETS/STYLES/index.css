@@ -5,6 +5,7 @@
     font-size: 16px;
 }
 
+
 .nav{
     background-color:white ;
     border-radius: 8px;
@@ -40,17 +41,18 @@
     background-color:white;
     color:#916330 ;
     border: 1px solid #916330;
+    outline:1px solid #916330 ;
 
 }
 .hero_info p{
     font-family: 'Inter';
     font-size: 16px;
-    padding-top:32px ;
+    padding-top:16px ;
     padding-bottom:32px ;
 }
 .hero_info h1{
     font-family: 'Inter';
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -68,50 +70,92 @@
 }
 .service p{
     text-align: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+}
+.service h1{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 700;
+
 }
 
 /*service end*/
 /*catalog start*/
 
-.cat .cat1
-{
-    width: 200px;
-   
-   
+.catt h1{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 700;
 }
-.cat .cat1 img
-{
-   
-    border-radius: 100px;
-}
-.cat1 img:hover{
-    filter: brightness(40%);
-    transform: scale(1.1);
-    transform: rotate(20deg);
+/*new*/
+swiper-container {
+    width: 100%;
+    height: 300px;
+    
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ .cat1 img{
+  height: 100px;
+  width: 100PX;
+  border-radius: 100px;
+ }
+ .cat1 img:hover{
+  filter: brightness(40%);
+  transform: scale(1.1);
+  transform: rotate(20deg);
 
 }
+
+
 
 /*catalog END*/
 
 
-
+.discount{overflow: hidden;}
 .dis_2{
     height: 800px;
-   
+    width: 100%;
     background-image: url('../IMAGES/banner-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
-    filter: brightness(70%);
+    filter: brightness(90%);
+    transition: all .3s ease;
+  
 }
 .dis_2:hover{
-    transform: scale(0.9);
     filter: brightness(100%);
+    transform: scale(0.9);
+    
+    transition: transform 0.5s ease ease-in-out;
+    
 }
+
 .dis_1{
     height: 800px;
+    overflow: hidden;
 }
+
 .dis_11
 {
     height: 380px;
@@ -121,11 +165,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
-    filter: brightness(70%);
+    filter: brightness(90%);
+   
+    transition: all .3s ease;
+    
 }
 .dis_11:hover{
-    transform: scale(0.9);
-    filter: brightness(100%);
+  
+ 
+   filter: brightness(100%);
+   transform: scale(1.1);
+  
+  
    
 
 }
@@ -137,12 +188,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
-    filter: brightness(70%);
+    filter: brightness(90%);
+    transition: all .3s ease;
 }
 .dis_12:hover{
-    transform: scale(0.9);
+   
     filter: brightness(100%);
-    
+    transform: scale(1.1);
+    transition: transform 0.5s ease ease-in-out;
+   
 }
 .dis_info{
     height: 250px;
@@ -180,6 +234,24 @@
     color:#916330 ;
 }
 /*cards start */
+.cards h1{
+   
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 700;
+}
+
+   
+
+
+
+.cards p{
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+
+}
 .item_1
 {
     width:230px;
@@ -219,10 +291,33 @@
    border: 1px solid #916330;
    border-radius: 16px;
  }
+ .pro_img{
+    overflow: hidden;
+}
+.pro_img img:hover{
+    filter: brightness(100%);
+    transform: scale(1.2);
+    transition: transform 0.5s ease ease-in-out;
+}
+.item_1:hover>.pro_img img{
+    transform: scale(1.2);
+    transition: transform 0.5s ease ease-in-out;
+}
 /* blogs start*/
 .blooo{
     background-color: #F6EEE5;
 
+}
+.blooo h1{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.blooo p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
 }
 .blog{
     background-color: #F6EEE5;
@@ -254,7 +349,7 @@
     color: #916330;
 }
 .arrow{
-    background-color: #916330;
+    background-color: black;
     
 }
 
@@ -262,10 +357,35 @@
 
 /* blogs end*/
 
-
+.vido{
+    position: relative; width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: 50%;
+}
+.vido .inn{
+    position: absolute;
+    top: 150px;
+  
+}
+.inn h1{
+    font-size: 100px;
+    color: white;
+}
 /* partner section start*/
 marquee img{
     padding-left: 100px;
+}
+
+.partner h1{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+}
+.partner p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
 }
 /* partner section start*/
 /*offer*/
@@ -351,3 +471,12 @@ marquee img{
 }
 /*footer*/
 
+
+
+@media (min-width:1px)  and (max-width:992px){
+    .dis_2{
+        height:380px;
+      
+    }
+    
+}

@@ -128,3 +128,14 @@
 }
 /*footer*/
 
+@media (min-width:1px)  and (max-width:992px){
+    .hhii{
+        height: 700px;
+    }
+    
+}
+@media(min-width:993px) and (max-width:5000px){
+    .hhii{
+        height: 250px;
+    }
+}

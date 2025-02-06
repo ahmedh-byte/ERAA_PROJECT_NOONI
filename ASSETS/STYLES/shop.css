@@ -1,0 +1,144 @@
+/*header*/
+.p{
+  font-family: 'Inter';
+  font-size: 16px;
+}
+
+.nav{
+  background-color:white ;
+  border-radius: 8px;
+ position: relative;
+ top:32px;
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+}
+.nav a:hover{
+  color: #916330;
+}
+
+/*header*/
+
+/*sec1*/
+.link a{
+  text-decoration: none;
+  color: #916330;
+  font-size: 24px;
+}
+.link a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.link span{
+  font-size: 24px;
+}
+
+
+
+/*sec1*/
+
+
+
+/* catlog*/
+swiper-container {
+    width: 100%;
+    height: 300px;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ .cat1 img{
+  height: 100px;
+  width: 100PX;
+  border-radius: 100px;
+ }
+ .cat1 img:hover{
+  filter: brightness(40%);
+  transform: scale(1.1);
+  transform: rotate(20deg);
+
+}
+.swiper-pagination{
+  display: none;
+}
+.pagination{
+  display: none;
+
+}
+/* catlog*/
+
+
+.filtt{
+  width: 250px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 12px;
+}
+#sort-cat{
+  width: 250px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border: none;
+ 
+
+}
+.header {
+  height: 60px;
+  background-color:#f0f0f0 ;
+}
+
+/*products*/
+.img{
+  background-image: url('../IMAGES/1.jpg');
+  height: 200px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img:hover{
+  background-image: url('../IMAGES/2.jpg');
+}
+
+.pro1{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.pro1 p{
+  font-size: 14px;
+}
+.pro1 .price{
+  font-size: 20px;
+  color: #916330;
+  font-weight: 500;
+}
+.pro1 button{
+  height: 32px;
+  color: white;
+  background-color: #916330;
+  border-radius: 8px;
+  border: 1px solid #916330
+}
+.pro1 button:hover{
+  background-color: white;
+  color: #916330;
+}
+
+/*products*/
